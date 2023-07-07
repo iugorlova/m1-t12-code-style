@@ -44,6 +44,7 @@ public class DepositCalculator
         System.out.println("Результат вклада: " + amount + " за "
                 + period + " лет превратятся в " + finalAmount);
     }
+
     public static void main(String[] args) {
         new DepositCalculator().calculateFinalAmount();
     }
